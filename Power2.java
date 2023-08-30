@@ -1,0 +1,13 @@
+package kodnestAssignments;
+
+public class Power2 {
+
+	int raiseToPower(int num,int n)
+	{
+		int finalresult =1;
+		for(int i=1;i<=n;i++) {
+			finalresult = finalresult*num;
+		}
+		return finalresult;
+	} 
+}
